@@ -33,7 +33,6 @@ namespace Web.Controllers
             CloudTable paymentTable = tableClient.GetTableReference("payments");
             //create new payment entity
             Pay pay = new Pay(token);
-            Console.WriteLine(pay);
             //create the table operation that inserts the customer entity
             TableOperation insertOperation = TableOperation.Insert(pay);
             await paymentTable.ExecuteAsync(insertOperation);
