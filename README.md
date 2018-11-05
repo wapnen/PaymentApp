@@ -1,1 +1,3 @@
-# .NET FRAMEWORk simple implementation of the Paymill API and Social authentication
+# 
+Youtube demo link: https://youtu.be/XRRkefRrPrE
+Web App link: https://payup.azurewebsites.net/Account/Login?ReturnUrl=%2F
